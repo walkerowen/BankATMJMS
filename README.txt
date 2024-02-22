@@ -7,8 +7,8 @@ site that helped set up environment and get started:
 https://developer.ibm.com/tutorials/mq-develop-mq-jms/
 
 compile file:
-javac -cp ./com.ibm.mq.allclient-9.3.0.0.jar:./javax.jms-api-2.0.1.jar:./json-20220320.jar com/ibm/mq/samples/jms/<FILENAME>.java
+javac -cp ./com.ibm.mq.allclient-9.3.0.0.jar:./javax.jms-api-2.0.1.jar:./json-20220320.jar <FILENAME>.java
 
 run file:
-java -cp ./com.ibm.mq.allclient-9.3.0.0.jar:./javax.jms-api-2.0.1.jar:./json-20220320.jar:. com.ibm.mq.samples.jms.<FILENAME>
+java -cp ./com.ibm.mq.allclient-9.3.0.0.jar:./javax.jms-api-2.0.1.jar:./json-20220320.jar:. <FILENAME>
 
